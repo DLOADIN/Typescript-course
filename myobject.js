@@ -6,10 +6,13 @@ var User = {
     gender: "Male",
     isActive: true,
 };
-
-function Usersme(name, age, gender, isActive) {
-    console.log(User);
+function Usersme(name, age, gender, MyActive) {
+    var User = {
+        name: 'Manzi',
+        age: 12,
+        gender: 'male',
+        isActive: true,
+    };
     return User;
 }
-
-Usersme(User)
+console.log(Usersme(User.name, User.age, User.gender, User.isActive));
