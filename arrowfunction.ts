@@ -5,5 +5,5 @@ const numbers = (n: number): number => {
 
 //multi-type parameter
 const numberone = (n: number | string): any => {
-    return n * 1;
+    return Number(n) * 1;
 };

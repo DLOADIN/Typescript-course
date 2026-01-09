@@ -2,7 +2,8 @@
 //how to use any in typescript
 Object.defineProperty(exports, "__esModule", { value: true });
 var hero = '';
-function getHero() {
+function getHero(string) {
     return true ? 'Ironman' : 1234;
 }
-hero = getHero();
+hero = getHero('Ironman');
+console.log(hero);

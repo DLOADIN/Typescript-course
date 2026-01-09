@@ -2,10 +2,11 @@
 
 let hero:any = '';
 
-function getHero(){
+function getHero(string :'Ironman'): any{
  return true ? 'Ironman' : 1234;
 }
 
-hero = getHero();
+hero = getHero('Ironman');
+console.log(hero);
 
 export {}
