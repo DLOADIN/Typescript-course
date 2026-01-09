@@ -6,6 +6,6 @@ function getHero(){
  return true ? 'Ironman' : 1234;
 }
 
-hero=getHero();
+hero = getHero();
 
 export {}
