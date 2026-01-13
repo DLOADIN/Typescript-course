@@ -1,4 +1,5 @@
 type Person = {
+    readonly _id: number;
     name: string;
     traits:{
         skintone: string;
@@ -13,11 +14,12 @@ type Person = {
 }
 
 function Ourpeople(packages: Person): Person {
-    console.log(packages.name, packages.traits, packages.isActive); 
+    console.log(packages._id, packages.name, packages.traits, packages.isActive); 
     return packages;
 }
 
 Ourpeople({
+    _id: 1,
     name: "Jean",
     traits:{
         skintone: 'lightskin',
