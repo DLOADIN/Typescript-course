@@ -1,6 +1,6 @@
-const AISLE = 0
-const MIDDEL = 1
-const WINDOW = 0
+const NEWAISLE = 0
+const NEWMIDDEL = 1
+const NEWWINDOW = 0
 // This is not the professional way to define enums in TypeScript
 
 
@@ -12,7 +12,7 @@ const enum SeatChoice {
     FOURTH = 5,
 }
 
-const hcSeat = SeatChoice.FOURTH;
-console.log(hcSeat);
+const NEWhcSeat = SeatChoice.FOURTH;
+console.log(NEWhcSeat);
 
 
