@@ -22,5 +22,9 @@ function getDbId(id:number | string){
     }
 }
 
+let newName: (string | number | boolean)[] = ['Jean', 12345, true];
+
 getDbId( 12345);
 getDbId(  '12345');
+console.log(newName);
+export {}
