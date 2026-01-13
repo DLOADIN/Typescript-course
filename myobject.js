@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var User = {
+const User = {
     name: "Jean",
     age: 23,
     gender: "Male",
     isActive: true,
 };
 function Usersme(name, age, gender, MyActive) {
-    var User = {
+    let User = {
         name: 'Manzi',
         age: 12,
         gender: 'male',
@@ -16,3 +16,4 @@ function Usersme(name, age, gender, MyActive) {
     return User;
 }
 console.log(Usersme(User.name, User.age, User.gender, User.isActive));
+//# sourceMappingURL=myobject.js.map

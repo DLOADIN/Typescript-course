@@ -1,8 +1,11 @@
-function Ourpeoples(package) {
-    console.log(package.name, package.traits, package.isActive  );
-    return package;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function Ourpeople(packages) {
+    console.log(packages._id, packages.name, packages.traits, packages.isActive);
+    return packages;
 }
-Ourpeoples({
+Ourpeople({
+    _id: 1,
     name: "Jean",
     traits: {
         skintone: 'lightskin',
@@ -14,3 +17,4 @@ Ourpeoples({
     gender: 'male',
     isActive: true,
 });
+//# sourceMappingURL=newObject.js.map

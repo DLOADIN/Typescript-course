@@ -1,6 +1,8 @@
-var nameone = 'Galvarino';
-var userone = { name: 'Galvarino', age: 30, country: 'Chile' };
-var ourboolean = true;
-var car = ourboolean.valueOf();
-console.log("".concat(car));
-console.log(nameone);
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let nameone = 'Galvarino';
+let userone = { name: 'Galvarino', age: 30, country: 'Chile' };
+let ourboolean = true;
+let car = ourboolean.valueOf();
+console.log(`${car}`);
+//# sourceMappingURL=01intro.js.map

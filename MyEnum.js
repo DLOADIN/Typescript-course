@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //An enum is used to create multiple restrictable 
 var Seatchoice;
 (function (Seatchoice) {
@@ -6,4 +8,5 @@ var Seatchoice;
     Seatchoice[Seatchoice["Window"] = 20] = "Window";
     Seatchoice[Seatchoice["Fourth"] = 21] = "Fourth";
 })(Seatchoice || (Seatchoice = {}));
-var FiniteSeats = Seatchoice.Aisle;
+const FiniteSeats = Seatchoice.Aisle;
+//# sourceMappingURL=myEnum.js.map
