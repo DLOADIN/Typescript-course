@@ -12,9 +12,9 @@ type Person = {
 
 }
 
-function Ourpeople(package: Person): Person {
-    console.log(package.name, package.traits, package.isActive); 
-    return package;
+function Ourpeople(packages: Person): Person {
+    console.log(packages.name, packages.traits, packages.isActive); 
+    return packages;
 }
 
 Ourpeople({
