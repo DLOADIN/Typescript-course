@@ -7,6 +7,10 @@ interface Mainuser{
     getCoupon(couponname: string, ): number;// This is another method inside an interface with parameters and return type.
 }
 
+interface Adminuser extends Mainuser{
+    role: 'admin' | 'ta' | 'learner';
+}
+
 const Dav: Mainuser = 
 {
  databaseid: 1234,
