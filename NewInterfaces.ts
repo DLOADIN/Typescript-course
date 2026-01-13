@@ -19,7 +19,7 @@ const Dav: Mainuser =
  startTrial: () => {
      return 'Trial started';
  },
- getCoupon(couponname: string = 'default'): number {
+ getCoupon(couponname = 'default'): number {
     return 10;
  }
 };
