@@ -27,8 +27,6 @@ class Instagram extends TakePhoto{
 }
 
 
-
-
 // This is another example of abstract class
 abstract class Subject{
     abstract StudentName(): string;
