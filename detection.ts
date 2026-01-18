@@ -46,7 +46,6 @@ function areas(s: Shapes) {
 
 //Exhaustiveness with never
 //Use never to ensure all union members are handled—great for discriminated unions.
-
 type Shape = 
   | { kind: "square"; size: number }
   | { kind: "circle"; radius: number };
